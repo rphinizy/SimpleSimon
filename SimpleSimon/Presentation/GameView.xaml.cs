@@ -52,7 +52,7 @@ namespace SimpleSimon.Presentation
         private void Button_Enter_Click(object sender, RoutedEventArgs e)
         {
 
-            bool allCharactersInStringAreDigits = textBox_Value.Text.All(char.IsDigit);
+            bool allCharactersInStringAreDigits = textBox_Value.Text.Any(char.IsDigit);
 
             if (allCharactersInStringAreDigits == true)
             {
