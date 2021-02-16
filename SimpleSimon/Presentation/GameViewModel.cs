@@ -8,6 +8,18 @@ using System.ComponentModel;
 using SimpleSimon.Models;
 using System.Windows.Threading;
 
+
+// **************************************************
+//
+// Title: CIT 195 SimpleGame WPF Project
+// Description: Practice with WPF controls, styles, and event handlers
+// Application Type: WPF
+// Author: Phinizy, Robin
+// Dated Created: 2/10/2021
+// Last Modified: 2/16/2021
+//
+// **************************************************
+
 namespace SimpleSimon.Presentation
 {
     public class GameViewModel : ObservableObject
