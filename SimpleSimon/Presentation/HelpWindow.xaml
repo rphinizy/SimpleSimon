@@ -1,0 +1,52 @@
+﻿<Window x:Class="SimpleSimon.Presentation.HelpWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:SimpleSimon.Presentation"
+        mc:Ignorable="d"
+        Title="HelpWindow" Height="350" Width="400" Background="Black" Foreground="White">
+    <Grid>
+
+        <StackPanel>
+
+            <Label
+            HorizontalAlignment="Center"
+            Margin="20"
+            FontStyle="Italic"
+            Foreground="Yellow"
+            FontWeight="Bold"
+            FontSize="16"
+            Content="Help Menu"/>
+
+            <TextBlock
+            Text="1) Click a color square. Red, Yellow, Green, or Blue"
+            Margin="10"
+            FontSize="16"/>
+            <TextBlock
+            Text="2) See if your choice matches Simon."
+            Margin="10"
+            FontSize="16"/>
+
+            <TextBlock
+            Text="3) Click a new color to sart the next round."
+            Margin="10"
+            FontSize="16"/>
+
+            <TextBlock
+            Text="4) Check your # of wins at the top"
+            Margin="10"
+            FontSize="16"/>
+
+            <Button
+            x:Name="Button_ExitButton"
+            Content="Exit"
+            Width="75" 
+            Height="30"
+            Margin="25"
+            Background="Green"
+            Foreground="Yellow"
+            Click="Button_Exit_Click"/>
+        </StackPanel>
+    </Grid>
+</Window>
