@@ -12,7 +12,7 @@ using System.Windows.Threading;
 // **************************************************
 //
 // Title: CIT 195 SimpleGame WPF Project
-// Description: Practice with WPF controls, styles, and event handlers
+// Description: Practice with WPF controls, styles, MVVM, and Data Binding
 // Application Type: WPF
 // Author: Phinizy, Robin
 // Dated Created: 2/10/2021
